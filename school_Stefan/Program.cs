@@ -7,12 +7,12 @@ namespace school_Stefan
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-
-            Print();
+            int n = 1;
+            Print(n++);
         }
 
-        static void Print() {
-            Console.WriteLine(Console.ReadLine());
+        static void Print(int n) {
+            Console.WriteLine($"{n} {Console.ReadLine()}");
         }
     }
 }
